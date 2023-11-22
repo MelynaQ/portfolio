@@ -501,7 +501,8 @@ html {
 #competinfo
 {justify-content: center;
 align-self: center;
-margin-left: 2%;}
+margin-left: 2%;
+}
 .flip-card {
   background-color: #ffffff00;
   width: 200px;
