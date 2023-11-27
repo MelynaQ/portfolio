@@ -1,0 +1,27 @@
+body {
+    background-image: url("font.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sepelement
+{
+    border: 1px solid #2980b9;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+td:hover {
+    background-color: lightcoral;
+}
+tr:hover {background-color: lightcoral;}
+
+#pied
+{position: fixed;
+  bottom: 0;
+  width: 100%;
+background-color: #2980b9;}
+caption
+{color: black;}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecompet.css" />
+    <title>capacité html</title>
+</head>
+<body>
+    <h1 style="display: inline-block;">on peut varier les </h1> <h2 style="display: inline-block;">&nbsp; tailles pour</h2><h3 style="display: inline-block;">&nbsp; les titres</h3>
+    <h4 style="display: inline-block;">&nbsp; gérer <span style="color: red;">les couleurs</span> ,<strong>l'épaisseur</strong> , <i>l'italique</i>,<u> le soulignement</u></h4>
+    <h4 style="display: inline-block;"> on rajoute à cela <mark>surligner</mark> ou même <del>barrer le texte.</del></h4>
+<h4> diverses compétences d'affichage d'élèments : </h4>
+    <div id="liste" style="display: inline-block;" class="sepelement">
+<h4 style="font-size: 40px;">liste ordonnées avec différent niveau:</h4>
+<ol style="font-size: 30px;" >
+    <li>élément 1
+        <ol>
+            <li>sous élément 1</li>
+            <li>sous élément 2</li>
+        </ol>
+    </li>
+
+    <li>élément 2
+        <ol>
+            <li type="a">sous élément 1</li>
+            <li type="a">sous élément 2</li>
+        </ol>
+    </li>
+    <li>élément 3</li>
+    <li>ect...</li>
+</ol>
+<h4 style="font-size: 40px;">liste à puces</h4>
+<ul style="font-size: 30px;">
+    <li>élément</li>
+    <li>élément</li>
+    <li>élément</li>
+    <li>élément</li>
+</ul>
+    </div>
+    <div id="imageclic" style="display: inline-block;margin-left: 300px;" class="sepelement">
+<h1>image avec zone cliquable :</h3>
+<h2>ici la pologne, l'islande et l'estonie sont cliquable et renvoie à la page wikipedia du pays</h4>
+    <img src="carte_europe.png" alt="carte de l'europe" usemap="#europe"/>
+<map id="europe" name="europe">
+    <abbr id="pologne">
+        <area title="pologne" href="https://fr.wikipedia.org/wiki/Pologne"
+        shape="rect" coords="291,313,361,365" alt="Pologne"/>
+    </abbr>
+    <abbr id="Islande">
+        <area title="islande" href="https://fr.wikipedia.org/wiki/Islande"
+        shape="rect" coords="39,97,83,118" alt="Islande" />
+    </abbr>
+    <abbr id="Estonie">
+        <area title="Estonie" href="https://fr.wikipedia.org/wiki/Estonie"
+        shape="circle" coords="367,226,10" alt="Estonie" />
+    </abbr>
+</map>
+</div>
+    <div id="tableau" class="sepelement" style="width: fit-content;">
+        <h2>Tables complexes avec fusion de colonnes et de lignes</h2>
+        <h4>avec changement de couleur de la case au survol de la souris</h4>
+        <table>
+            <caption>titre du tableau</caption>
+            <thead>
+            <tr>
+                <td>titre</td>
+                <td colspan="2">des colonnes</td>
+            </tr>
+            <tbody>
+                <tr>
+                    <td rowspan="2">titre de lignes</td>
+                    <td>A1</td>
+                    <td>A2</td>
+                </tr>
+                <tr>
+                    <td>B1</td>
+                    <td>B2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="5">...fin de la liste...</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+<div id="incorporation" style="margin-bottom: 30px;">
+    <div id="map" style="display: inline-block;" class="sepelement">
+<h3>incorporation d'éléments dans la page</h3>
+<h4> carte :</h4>
+<div id="iframe3">
+    <iframe name="iframe6" width="600" height="400"  
+    src="https://www.openstreetmap.org/export/embed.html?bbox=2.349888243068419%2C51.03135528003145%2C2.3873318809163195%2C51.044321798144615&amp;layer=mapnik" 
+    style="border: 1px solid black"></iframe>
+</div>
+<div id="iframe4">
+    <a href="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2508.848946806597!2d2.370963506314084!3d51.03741054804159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1638540929130!5m2!1sfr!2sfr" 
+    target="iframe6">version google map dans le cadre</a>
+   <p><a href="https://www.openstreetmap.org/export/embed.html?bbox=2.3580594380074564%2C51.034000096355406%2C2.3767812569314066%2C51.04048343895558&amp;layer=mapnik" >
+version openstreetmap dans une nouvel fenêtre</a></p> 
+</div>
+</div>
+<div id="videoytb" style="display: inline-block;margin-left: 150px;" class="sepelement">
+<h4>vidéo provenant de youtube : </h4>
+<iframe name="cadre" width="650" height="450"  src="https://www.youtube.com/embed/XMm0HsmOTFI" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+<div id="mp3" style="display: inline-block;margin-left: 150px;" class="sepelement">
+<h4> élément mp3 : </h4>
+<h6>Stomps And Claps (Percussion and Rhythm) - Alex_Kizenkov sur pixabay :</h6>
+<audio src="stomps-and-claps-percussion-and-rhythm-141190.mp3" controls style="margin-bottom: 100px;"></audio>
+</div>
+</div>
+<div id="pied">
+    <h2 style="text-align: right;margin-right: 20px;"> page réalisé par Melyna Queva</h2>
+</div>
+
+</body>
+</html>
