@@ -3,7 +3,7 @@ table {text-align: center;border-width:1px;
     border-color:black;
     width:50%}
 table,
-td {
+td{
     border-style:double; 
     border-color:rgb(0, 0, 255);
     width:70cm;

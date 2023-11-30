@@ -1,5 +1,5 @@
 <?php
-  $user = "root";
+  $user ="root";
   $pswd = "";
   $db = "mysql:host=localhost;dbname=connexion";
   try {

@@ -19,7 +19,7 @@ setInterval(function() {
     index = (index + 1) % texts.length;
 }, 2000);
 
-//education
+//education 
 const cardControllers = document.querySelectorAll("[data-card-controller]");
 
 cardControllers.forEach(controller => {

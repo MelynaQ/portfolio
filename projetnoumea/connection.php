@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $count = count($result);
         if($count!=0) {
             session_start();
-            $_SESSION['data'] = $result;
+            $_SESSION['data'] =$result;
             $_SESSION['id'] = $result["IDUSER"];
             $_SESSION['logged-in'] = true;
             header('Location:  profil.html');

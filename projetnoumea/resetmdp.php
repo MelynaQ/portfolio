@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Récupérer l'adresse e-mail depuis le formulaire
+    // Récupérer l'adresse e-mail saisi depuis le formulaire
     $email = $_POST["email"];
 
     // Vérifier si l'adresse e-mail existe dans votre système de base de données

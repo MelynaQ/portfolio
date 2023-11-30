@@ -9,7 +9,7 @@ $mdp = $_POST['mdp'];
 $rqt = $db->prepare("INSERT INTO connexion VALUES (NULL, $nom, $tel, $email, $mdp)");
 $rqt->execute();
 
-// Vérifier si l'insertion a réussi
+// Vérifier si l'insertion a réussi dans la bdd
 if ($rqt->rowCount() > 0) {
     echo "Données insérées avec succès.";
 } else {

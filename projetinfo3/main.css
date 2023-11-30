@@ -1,0 +1,63 @@
+body{ background-color:rgba(0, 38, 87, 0.384);}
+h1{font-family: 'Good vibes', cursive; color: rgba(0, 38, 87, 0.384); }
+pre{font-family: 'Good vibes', cursive;}
+p{font-family: 'Fuzzy Bubbles', cursive; color: rgba(126, 84, 0, 0.815);font-size: small;}
+h2{color:royalblue; font-family: "Mea Culpa", cursive; }
+.bouton {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    background:url(boutonnoir.png) no-repeat;
+    color:rgb(255, 145, 0);
+    text-decoration:none;
+    margin: 15px;
+    }
+.bouton :hover {
+background:url(boutonnoir2.png) no-repeat;margin: 15px;
+ }
+#sommaire{background-color: rgba(255, 145, 0, 0.411);
+    margin-left: 1000px;
+    width: 200px;
+    height: 350px;
+}
+#titre{background-image:url(fondtitre.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: center;
+text-align: center;}
+#soustitre{text-align: center;}
+#clic{width:400px}
+#video{background-color: rgb(0, 255, 255);
+margin: 10px;
+height: 700px;}
+#def{background-color: rgb(0, 255, 255);
+    margin: 10px;
+    height: 100px;}
+iframe{margin: 50px;
+float:left;}
+#def1,#def2{font-size: 0.5cm;
+text-align: center;}
+#image{margin-left: 50px;
+}
+#menu{font-size: medium;}
+#explication{font-size: small;}
+a{vertical-align:text-top
+;}
+table {text-align: center;border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:50%}
+table,
+td {border-width:1px;
+    border-style:solid; 
+    border-color:rgb(0, 0, 255);
+    width:30cm;
+
+}
+
+thead,
+tfoot {
+    background-color:rgb(255, 145, 0);
+    color: #fff;
+}
