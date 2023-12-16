@@ -69,13 +69,14 @@ section.card2 {
   padding: 48px;
   margin: 24px 0;
   min-width: 100px;
-  max-width: 400px;
+  max-width: 300px;
   display: flex;
   flex-direction: row;
   align-self: flex-start;
   position: relative;
   box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
 }
+article{margin-right: 20px; text-align: center; align-items: center; display: inline-block;}
 section.card2 .text-content {
   display: flex;
   flex-direction: column;
@@ -554,7 +555,7 @@ margin-left: 2%;
   width: 200px;
   height: 300px;
   perspective: 1000px;
-  margin: 50px;
+  margin: 40px;
   display: inline-block;
 }
 
