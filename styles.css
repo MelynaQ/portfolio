@@ -61,13 +61,49 @@ li
   justify-content: center;
 }
 /* expérience pro */
-
-
-
-
-
-
-
+section.card2 {
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046); 
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  border-radius: 24px 24px 24px 48px;
+  padding: 48px;
+  margin: 24px 0;
+  min-width: 100px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  position: relative;
+  box-shadow: 5px 0 0 0 rgba(204,204,204,0.3), -5px 0 0 0 rgba(204,204,204,0.3), 0 5px 0 0 rgba(204,204,204,0.3);
+}
+section.card2 .text-content {
+  display: flex;
+  flex-direction: column;
+  width:calc(60vw - 192px);
+}
+section.card2 .text-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  max-width: 20ch;
+  color: #fff;
+}
+section.card2 .text-content p {
+  margin: 25px 0 24px;
+  color: #fff;
+}
+section.card2 .text-content a {
+  border: 3px solid #f2f2f2;
+  color: #ffffff;
+  align-self: flex-start;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  transition: 400ms all;
+}
+section.card2 .text-content a:hover {
+  background: #051c5e;
+  color: white;
+}
 
 
 /* bouton réalisation*/
